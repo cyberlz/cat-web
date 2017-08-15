@@ -1,0 +1,14 @@
+@import "src/style/index";
+
+.item-mark{
+  width: 100%;
+  background: #eee;
+  padding: r(4) r(8);
+  @include borderRadius($width:1,$style:solid,$color:#ebebf0,$radius:2px);
+  >a{
+    color:#777;
+    &:hover,&:active{
+      color:#777;
+    }
+  }
+}

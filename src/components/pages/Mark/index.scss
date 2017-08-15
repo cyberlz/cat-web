@@ -1,0 +1,12 @@
+@import "src/style/index";
+
+.page-mark{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding:r(6) r(10);
+  color:#777;
+  .it{
+    margin: r(4) 0;
+  }
+}
